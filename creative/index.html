@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CYRUS NETWORK — cartoon-inspired creative portfolio by Cyrus V. Tadoy.">
+  <title>CYRUS NETWORK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor" aria-hidden="true"><span></span></div>
+  <div class="studio-bg" aria-hidden="true">
+    <div class="studio-bg__check"></div>
+    <div class="studio-bg__dots"></div>
+  </div>
+
+  <a class="skip" href="#main">Skip</a>
+
+  <header class="bar">
+    <a class="logo" href="#top">
+      <span class="logo-box">CN</span>
+      <span class="logo-text" data-field="network">CYRUS NETWORK</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#episodes">Episodes</a>
+      <a href="#star">The Star</a>
+      <a href="#hotline">Hotline</a>
+      <a class="nav-swap" href="../index.html" data-field="proSite" data-link>Pro site</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="panel">
+      <i></i><i></i><i></i>
+    </button>
+  </header>
+
+  <aside class="panel" id="panel" hidden>
+    <a href="#episodes">Episodes</a>
+    <a href="#star">The Star</a>
+    <a href="#hotline">Hotline</a>
+    <a href="../index.html">Professional site</a>
+  </aside>
+
+  <main id="main">
+    <section class="bumper" id="top">
+      <div class="bumper-stage" aria-hidden="true">
+        <div class="burst"></div>
+        <div class="zap zap--1"></div>
+        <div class="zap zap--2"></div>
+        <div class="float-star s1">★</div>
+        <div class="float-star s2">★</div>
+        <div class="float-star s3">★</div>
+        <div class="check-block"></div>
+      </div>
+
+      <div class="bumper-copy">
+        <p class="on-air" data-field="role">NOW PLAYING</p>
+        <h1 class="bumper-brand" aria-label="Cyrus">
+          <span class="letter" style="--i:0">C</span>
+          <span class="letter" style="--i:1">Y</span>
+          <span class="letter" style="--i:2">R</span>
+          <span class="letter" style="--i:3">U</span>
+          <span class="letter" style="--i:4">S</span>
+        </h1>
+        <div class="speech">
+          <p data-field="tagline">Portals! Apps! Games! Coming at you from Cagayan de Oro!</p>
+        </div>
+        <a class="btn-boom" href="#episodes">
+          <span>Watch episodes</span>
+        </a>
+      </div>
+
+      <div class="tv-badge" aria-hidden="true">
+        <span>OPEN FOR</span>
+        <strong>INTERNSHIP</strong>
+      </div>
+    </section>
+
+    <div class="crawl" aria-hidden="true">
+      <div class="crawl-rail" id="ticker"></div>
+    </div>
+
+    <section class="episodes" id="episodes">
+      <header class="block-head">
+        <p class="block-label">Coming up next</p>
+        <h2>EPISODES</h2>
+      </header>
+      <div class="ep-row">
+        <button class="ep-nav ep-nav--prev" type="button" aria-label="Previous episode">‹</button>
+        <div class="ep-viewport">
+          <div class="ep-track" id="reel-track"></div>
+        </div>
+        <button class="ep-nav ep-nav--next" type="button" aria-label="Next episode">›</button>
+      </div>
+    </section>
+
+    <section class="star" id="star">
+      <div class="star-bubble">
+        <p>Toon-powered<br>code with<br>local flavor!</p>
+      </div>
+      <div class="star-copy">
+        <p class="block-label">Meet the star</p>
+        <h2 data-field="shortName">Cyrus Tadoy</h2>
+        <p class="star-text" data-field="about"></p>
+        <ul class="star-facts" id="facts"></ul>
+        <div class="star-skills">
+          <p class="block-label">Power-ups</p>
+          <ul id="skill-cloud"></ul>
+        </div>
+      </div>
+      <div class="star-shot">
+        <div class="star-frame">
+          <img src="../assets/profile.png" alt="Cyrus V. Tadoy" data-field="photo" data-src>
+        </div>
+        <span class="star-sticker" aria-hidden="true">CVT ’26</span>
+      </div>
+    </section>
+
+    <section class="hotline" id="hotline">
+      <p class="block-label">Commercial break</p>
+      <h2>CALL THE<br><span class="hot-pop">STUDIO</span></h2>
+      <a class="hot-mail" href="mailto:cyrustadoy@gmail.com" data-field="email" data-mailto>cyrustadoy@gmail.com</a>
+      <ul class="hot-social" id="social"></ul>
+    </section>
+  </main>
+
+  <footer class="end">
+    <span>© <span id="year"></span> <span data-field="fullName">Cyrus V. Tadoy</span> · Fan concept look</span>
+    <a href="../index.html">← Professional portfolio</a>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

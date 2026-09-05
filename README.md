@@ -1,34 +1,18 @@
-# Professional IT Portfolio
+# Portfolio — Cyrus V. Tadoy
 
-Internship-ready portfolio for **Cyrus V. Tadoy** (BS Information Technology).
+One repo with **two sites**:
 
-This repo contains **only the professional site**. The creative (CYRUS NETWORK) portfolio lives in a **separate repository**.
+| Site | Path | Live URL |
+|------|------|----------|
+| Professional | `/` (`index.html`) | https://cyrus1196.github.io/Portfolio/ |
+| Creative (CYRUS NETWORK) | `/creative/` | https://cyrus1196.github.io/Portfolio/creative/ |
 
 ## Run locally
 
-Open `index.html` in your browser, or:
+Open `index.html` or `creative/index.html` in a browser.
 
-```bash
-python -m http.server 8080
-```
+## Edit content
 
-## Customize
-
-Edit **`content.js`** for name, photo, projects, skills, education, and links.
-
-Photos and project images go in **`assets/`**.
-
-## Creative portfolio (separate repo)
-
-→ https://github.com/Cyrus1196/Creative-Portfolio
-
-## Structure
-
-```
-portfolio/
-├── index.html
-├── styles.css
-├── content.js      ← edit your info here
-├── script.js
-└── assets/         ← profile + project images
-```
+- Professional → `content.js`
+- Creative → `creative/content.js`
+- Shared images → `assets/`

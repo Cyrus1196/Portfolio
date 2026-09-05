@@ -34,7 +34,7 @@ const PORTFOLIO = {
   // ── Links ──────────────────────────────────────────────────
   resumeLink: "#", // PDF download URL
   email: "cyrustadoy@gmail.com",
-  creativeSite: "https://github.com/Cyrus1196/Creative-Portfolio", // separate creative repo
+  creativeSite: "creative/index.html",
   social: [
     { label: "GitHub", url: "https://github.com/cyrus1196" },
     { label: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
