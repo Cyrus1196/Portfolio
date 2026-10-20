@@ -11,7 +11,13 @@
       el.alt = `${data.fullName} profile photo`;
     } else if (el.dataset.link !== undefined) {
       el.href = data[key];
-      if (data[key] === "#") el.setAttribute("aria-disabled", "true");
+      if (data[key] === "#") {
+        el.setAttribute("aria-disabled", "true");
+        el.removeAttribute("download");
+      } else if (key === "resumeLink") {
+        el.setAttribute("download", "Cyrus-Tadoy-Resume.png");
+        el.removeAttribute("aria-disabled");
+      }
     } else if (el.dataset.mailto !== undefined) {
       el.href = `mailto:${data.email}`;
       el.textContent = data.email;

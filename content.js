@@ -32,13 +32,12 @@ const PORTFOLIO = {
   photo: "assets/profile.png",
 
   // ── Links ──────────────────────────────────────────────────
-  resumeLink: "#", // PDF download URL
+  resumeLink: "assets/Cyrus-Tadoy-Resume.png",
   email: "cyrustadoy@gmail.com",
   creativeSite: "creative/index.html",
   social: [
     { label: "GitHub", url: "https://github.com/cyrus1196" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
-    // { label: "Portfolio", url: "https://yoursite.com" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/trulyurcyrustadoy/" },
   ],
 
   // ── Skills (grouped by category) ───────────────────────────

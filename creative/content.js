@@ -20,10 +20,10 @@ const CREATIVE = {
   email: "cyrustadoy@gmail.com",
   photo: "../assets/profile.png",
   proSite: "../index.html",
-  resumeLink: "#",
+  resumeLink: "../assets/Cyrus-Tadoy-Resume.png",
   social: [
     { label: "GitHub", url: "https://github.com/cyrus1196" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/trulyurcyrustadoy/" },
   ],
   about:
     "Hey hey! I’m a 4th-year IT student who builds full-stack portals, Flutter apps, and Unity games. Loud ideas, clean code, local flavor — that’s the show.",
