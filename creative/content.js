@@ -20,7 +20,7 @@ const CREATIVE = {
   email: "cyrustadoy@gmail.com",
   photo: "../assets/profile.png",
   proSite: "../index.html",
-  resumeLink: "../assets/Cyrus-Tadoy-Resume.png",
+  resumeLink: "../assets/Cyrus-Tadoy-Resume.pdf",
   social: [
     { label: "GitHub", url: "https://github.com/cyrus1196" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/trulyurcyrustadoy/" },

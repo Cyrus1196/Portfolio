@@ -32,7 +32,7 @@ const PORTFOLIO = {
   photo: "assets/profile.png",
 
   // ── Links ──────────────────────────────────────────────────
-  resumeLink: "assets/Cyrus-Tadoy-Resume.png",
+  resumeLink: "assets/Cyrus-Tadoy-Resume.pdf",
   email: "cyrustadoy@gmail.com",
   creativeSite: "creative/index.html",
   social: [

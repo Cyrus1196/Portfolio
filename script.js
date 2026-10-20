@@ -15,7 +15,7 @@
         el.setAttribute("aria-disabled", "true");
         el.removeAttribute("download");
       } else if (key === "resumeLink") {
-        el.setAttribute("download", "Cyrus-Tadoy-Resume.png");
+        el.setAttribute("download", "Cyrus-Tadoy-Resume.pdf");
         el.removeAttribute("aria-disabled");
       }
     } else if (el.dataset.mailto !== undefined) {
